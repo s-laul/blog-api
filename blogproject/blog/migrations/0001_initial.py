@@ -23,6 +23,7 @@ class Migration(migrations.Migration):
                     ),
                 ),
                 ("title", models.CharField(max_length=50)),
+                ("body", models.CharField(max_length=300)),
             ],
         ),
     ]
